@@ -4,7 +4,6 @@ type StoreItemProps = {
     id: number;
     name: string;
     price: number;
-    description: string;
     imageUrl: string;
     quantity: number;
     increaseCartQuantity: (id: number) => void;
